@@ -1,0 +1,21 @@
+html {
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.banner {
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+}
+
+.banner-text, a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.banner-content {
+  padding: 10em 5em 20em;
+}
+
+.banner-btn {
+
+}
