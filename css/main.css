@@ -3,20 +3,22 @@ html {
 }
 
 .banner {
-  background-image: url(../images/starfield.png);
+  background-image: url("../images/starfield.png");
   background-size: cover;
 }
 
-.banner-text, a {
+.banner-text {
   color: #fff;
+  text-decoration: none;
+}
+
+.btn {
+  border-color: #90ccc3;
+  color: #b4fff4;
   text-decoration: none;
 }
 
 .banner-content {
   padding-bottom: 20em;
   padding-top: 15em;
-}
-
-.banner-btn {
-
 }
