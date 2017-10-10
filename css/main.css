@@ -15,7 +15,16 @@ html {
 .btn {
   border-color: #90ccc3;
   color: #b4fff4;
+  border-radius: 8px 8px 0 0;
   text-decoration: none;
+}
+
+img {
+  padding: 2px 2px 7px 2px;
+}
+
+.launch {
+  padding: 8px 0 6px 12px
 }
 
 .btn:hover {
