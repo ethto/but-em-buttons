@@ -17,6 +17,7 @@ html {
   color: #b4fff4;
   border-radius: 8px 8px 0 0;
   text-decoration: none;
+  top: 0;
 }
 
 img {
@@ -24,8 +25,20 @@ img {
   transition: all .2s linear
 }
 
-img:hover {
+a:hover img {
   transform: translate(0px, -3px);
+}
+
+a:hover .layer {
+  background-color: rgba(180, 255, 244, .2);
+}
+
+a:active {
+  top: 3px;
+}
+
+a:active .layer {
+  bottom: -1px;
 }
 
 .launch {
