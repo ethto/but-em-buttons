@@ -3,7 +3,7 @@ html {
 }
 
 .banner {
-  background-image: url(../images/background.jpg);
+  background-image: url(../images/starfield.png);
   background-size: cover;
 }
 
@@ -13,7 +13,8 @@ html {
 }
 
 .banner-content {
-  padding: 10em 5em 20em;
+  padding-bottom: 20em;
+  padding-top: 15em;
 }
 
 .banner-btn {
