@@ -21,6 +21,11 @@ html {
 
 img {
   padding: 2px 2px 7px 2px;
+  transition: all .2s linear
+}
+
+img:hover {
+  transform: translate(0px, -3px);
 }
 
 .launch {
@@ -32,13 +37,23 @@ img {
   z-index: 0;
   display: block;
   border-radius: 8px;
+  height: 20px;
+  width: calc(100% + 6px);
+  border: 3px solid #90ccc3;
+  position: absolute;
+  bottom: -20px;
+  left: -3px;
+  border-radius: 0 0 8px 8px;
+}
+
+.layer:hover {
+  background-color: rgba(180, 255, 244, .2);
 }
 
 .btn:hover {
   border-color: #90ccc3;
   color: #b4fff4;
   background-color: rgba(180, 255, 244, .2);
-  transition:
 }
 
 .banner-content {
