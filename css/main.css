@@ -24,13 +24,21 @@ img {
 }
 
 .launch {
-  padding: 8px 0 6px 12px
+  padding: 8px 0 6px 12px;
+  z-index: 1000;
+}
+
+.layer {
+  z-index: 0;
+  display: block;
+  border-radius: 8px;
 }
 
 .btn:hover {
   border-color: #90ccc3;
   color: #b4fff4;
   background-color: rgba(180, 255, 244, .2);
+  transition:
 }
 
 .banner-content {
