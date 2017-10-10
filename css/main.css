@@ -18,6 +18,12 @@ html {
   text-decoration: none;
 }
 
+.btn:hover {
+  border-color: #90ccc3;
+  color: #b4fff4;
+  background-color: rgba(180, 255, 244, .2);
+}
+
 .banner-content {
   padding-bottom: 20em;
   padding-top: 15em;
